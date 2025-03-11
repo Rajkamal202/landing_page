@@ -33,10 +33,10 @@ export default function CtaSection() {
       await new Promise((resolve) => setTimeout(resolve, 1000))
 
       // Success notification
-      toast({
-        title: "Subscription successful",
-        description: "Thank you for subscribing to our newsletter.",
-      })
+    toast("Subscription successful", {
+    description: "Thank you for subscribing to our newsletter.",
+    });
+
 
       // Reset form
       setEmail("")
