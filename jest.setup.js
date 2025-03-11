@@ -1,4 +1,4 @@
-"use client"
+
 const nextJest = require("next/jest")
 import jest from "jest-mock";
 
